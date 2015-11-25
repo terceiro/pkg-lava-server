@@ -1,3 +1,10 @@
+lava-server (2015.9.post1-1) trusty; urgency=medium
+
+  * Freeze Trusty to avoid database corruption with
+    django1.7 
+
+ -- Neil Williams <codehelp@debian.org>  Wed, 25 Nov 2015 15:45:07 +0000
+
 lava-server (2015.9-1) unstable; urgency=medium
 
   * New production release
