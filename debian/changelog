@@ -56,6 +56,14 @@ lava-server (2015.12-4) unstable; urgency=medium
 
  -- Neil Williams <codehelp@debian.org>  Wed, 13 Jan 2016 19:33:16 +0000
 
+lava-server (2015.12-3~bpo8+1) jessie-backports; urgency=medium
+
+  * Rebuild for jessie-backports.
+  * Retain Suggests on python-django-auth-openid as the version
+    in jessie will work with the version of django in jessie.
+
+ -- Neil Williams <codehelp@debian.org>  Thu, 24 Dec 2015 11:16:23 +0000
+
 lava-server (2015.12-3) unstable; urgency=medium
 
   * Conflict with python-django-auth-openid as 
