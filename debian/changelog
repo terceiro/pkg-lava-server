@@ -1,3 +1,9 @@
+lava-server (2016.3-3~bpo8+1) jessie-backports; urgency=medium
+
+  * Rebuild for jessie-backports.
+
+ -- Neil Williams <codehelp@debian.org>  Tue, 15 Mar 2016 10:25:31 +0000
+
 lava-server (2016.3-3) unstable; urgency=medium
 
   * Add pep8 | python-pep8 dependency for lava-dev
@@ -63,10 +69,6 @@ lava-server (2015.12-3~bpo8+1) jessie-backports; urgency=medium
     in jessie will work with the version of django in jessie.
 
  -- Neil Williams <codehelp@debian.org>  Thu, 24 Dec 2015 11:16:23 +0000
-
-lava-server (2015.12-3) unstable; urgency=medium
-
-  * Conflict with python-django-auth-openid as 
 
 lava-server (2015.12-3~bpo8+1) jessie-backports; urgency=medium
 
