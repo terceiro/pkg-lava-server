@@ -43,6 +43,12 @@ lava-server (2016.2-2) unstable; urgency=medium
 
  -- Neil Williams <codehelp@debian.org>  Sat, 13 Feb 2016 12:35:41 +0000
 
+lava-server (2016.2-1~bpo8+1) jessie-backports; urgency=medium
+
+  * Rebuild for jessie-backports.
+
+ -- Neil Williams <codehelp@debian.org>  Mon, 08 Feb 2016 19:48:06 +0000
+
 lava-server (2016.2-1) unstable; urgency=medium
 
   * New production release (Closes: #807999)
